@@ -71,7 +71,7 @@ def index():
         tracks = sp.current_user_saved_tracks()
         return tracks
     else:
-        return htmlLoginButton
+        return htmlForLoginButton
 
 def htmlForLoginButton():
     auth_url = sp_oauth.get_authorize_url()
