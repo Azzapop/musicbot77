@@ -46,7 +46,7 @@ def bot():
 
 
 pool = Pool(processes=1)
-pool.apply_async(bot)
+botted = pool.apply_async(bot)
 
 @route('/')
 def index():
