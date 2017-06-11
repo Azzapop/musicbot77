@@ -50,6 +50,7 @@ pool.apply_async(bot)
 
 @route('/')
 def index():
+    global sp
     access_token = ''
     token_info = sp_oauth.get_cached_token()
 
