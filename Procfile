@@ -1,1 +1,1 @@
-web: python spot-auth.py $PORT
+web: gunicorn app:app
